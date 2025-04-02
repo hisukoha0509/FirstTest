@@ -75,5 +75,8 @@ crashlytics-build.properties
 .DS_Store
 Thumbs.db
 
+# Exclude GUIPackCartoon asset
+Assets/GUIPackCartoon/
+
 # 重要なUnityファイルは除外しない
 # *.meta は含める必要があるため記載しない
