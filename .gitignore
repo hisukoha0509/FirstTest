@@ -1,7 +1,5 @@
 # This .gitignore file should be placed at the root of your Unity project directory
-#
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
-#
 .utmp/
 /[Ll]ibrary/
 /[Tt]emp/
@@ -76,3 +74,6 @@ crashlytics-build.properties
 # MacやWindowsの自動生成ファイル
 .DS_Store
 Thumbs.db
+
+# 重要なUnityファイルは除外しない
+# *.meta は含める必要があるため記載しない
